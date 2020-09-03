@@ -1,1 +1,1 @@
-# OptiNMF
+# NMFOptiGene
