@@ -1,8 +1,7 @@
 # NMFOptiGene
 
-NMFOptiGene is a R script for finding .... (추가예정)
-
-논문 참고 : description->논문에 언급
+NMFOptiGene is a R script for finding optimal genes to represent genes of interest (target genes) by utilizing Non-negative Matrix Factorization (NMF) and Missing Value Imputation (Xihui Lin (2018). [Fast Nonnegative Matrix Factorization and Applications to
+Pattern Extraction, Deconvolution and Imputation](https://www.biorxiv.org/content/10.1101/321802v1.full)). *bioRXiv*. Details are descripted in our paper in preparation for publication (to be updated later).
 
 ## Gene Optimization using NMF based on Missing Value Imputation
 
@@ -23,12 +22,22 @@ Gene optimization are conducted to impute these target genes well. Transcription
 Genes related with target genes. Transcriptionally-, regulationally-, or functionally-related with target genes can be included. As more genes are included, the optimization process takes exponentially longer, so we recommend less than 300 genes. In example, NanoString panel genes which selected based on our study about Acute Myeloid Leukemia (AML) data sets.
 
 3. *expression.tsv*   
-Expression matrix with row and column as genes and samples respectively. First colume name must be "Gene". Negative values are not allowed. We recommend RNA-seq or NanoString values. In example, normalized expression of NanoString of 40 AML samples are used.
+Expression matrix with row and column as genes and samples respectively. First colume name must be "Gene". Negative values are not allowed. We recommend RNA-seq or NanoString data. In example, normalized expression of NanoString of 40 AML samples are used.
 
 ### Output Description
 1. *optimization.result.tsv*   
+Record of the optimization process. In each step, a removed gene and Mean Absolute Percentage Error (MAPE) between original and imputed entries of target genes are recorded.
 
 2. *optimization.MAPE.png*   
+Visualization of optimization with decreasing MAPE for each steps.
 
 3. *H.matrix.tsv*, *W.matrix.tsv*, and *W.matrix.r1.tsv*   
+*H.matrix.tsv* is profile of signatures. *W.matrix.tsv* presents definition of signatures. *W.matrix.r1.tsv* is a scaled (row sum to 1) matrix of *W.matrix.tsv*.
+
+
+
+
+
+
+
 
