@@ -39,6 +39,9 @@ Visualization of optimization with decreasing MAPE for each step.
 ~~If you use NMFOptiGene for published work, please cite our paper~~   
 (Publishing of NMFOptiGene is in progress.)
 
+## Contact
+Chansub Lee (cslee159@snu.ac.kr)
+
 
 
 
