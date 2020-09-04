@@ -35,7 +35,9 @@ Visualization of optimization with decreasing MAPE for each step.
 *H.matrix.tsv* is profile of signatures. *W.matrix.tsv* presents definition of signatures. *W.matrix.r1.tsv* is a scaled (row sum to 1) matrix of *W.matrix.tsv*.
 
 
-
+## Citing NMFOptiGene
+~~If you use NMFOptiGene for published work, please cite our paper~~   
+(Publishing of NMFOptiGene is in progress.)
 
 
 
