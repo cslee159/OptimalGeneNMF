@@ -10,7 +10,7 @@ Pattern Extraction, Deconvolution and Imputation](https://www.biorxiv.org/conten
 Rscript  script.optimization.R \
             target.gene.list \
             related.gene.list \
-            expression.tsv \
+            expression.tsv 
 
 ```
       
