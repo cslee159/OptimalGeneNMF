@@ -1,7 +1,7 @@
 # NMFOptiGene
 
-NMFOptiGene is an R script for finding optimal genes to represent genes of interest (target genes) and finally extracting transcriptional signatures of the optimal genes by utilizing Non-negative Matrix Factorization (NMF) and Missing Value Imputation (Xihui Lin (2018). [Fast Nonnegative Matrix Factorization and Applications to
-Pattern Extraction, Deconvolution and Imputation](https://www.biorxiv.org/content/10.1101/321802v1.full). *bioRXiv*). Details are described  in our paper in preparation for publication (to be updated later).
+NMFOptiGene is an R script for finding optimal genes to represent genes of interest (target genes) and finally extracting transcriptional signatures of the optimal genes by utilizing Non-negative Matrix Factorization (NMF), Missing Value Imputation (Xihui Lin (2018). [Fast Nonnegative Matrix Factorization and Applications to
+Pattern Extraction, Deconvolution and Imputation](https://www.biorxiv.org/content/10.1101/321802v1.full). *bioRXiv*), and backward selection. Details are described  in our paper in preparation for publication (to be updated later).
 
 ## Gene Optimization using NMF based on Missing Value Imputation
 
