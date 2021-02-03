@@ -1,4 +1,4 @@
-# NMFOptiGene
+# OptimalGeneNMF
 
 NMFOptiGene is an R script for optimizing genes, resulting in represent a complicated regulation network of the given "target genes". Finally, from the "optimized genes", it extracts transcriptional signatures using Non-negative Matrix Factorization (NMF). Details are described  in our paper in preparation for publication (to be updated later).
 
