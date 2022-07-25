@@ -1,4 +1,5 @@
 # OptimalGeneNMF
+[![DOI](https://zenodo.org/badge/292222008.svg)](https://zenodo.org/badge/latestdoi/292222008)
 
 OptimalGeneNMF is an R script for optimizing genes, resulting in represent a complicated regulation network of the given "target genes". Finally, from the "optimal genes", it extracts transcriptional signatures using Non-negative Matrix Factorization (NMF). Details are described  in our paper in preparation for publication (to be updated later).
 
