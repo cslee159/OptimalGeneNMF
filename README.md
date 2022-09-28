@@ -53,6 +53,7 @@ Final optimized genes representing regulation network of the target genes.
 
 ## Citing NMFOptiGene
 If you use NMFOptiGene for published work, please cite our paper
+
 Lee, C., Lee, S., Park, E. et al. Transcriptional signatures of the BCL2 family for individualized acute myeloid leukaemia treatment. Genome Med 14, 111 (2022). https://doi.org/10.1186/s13073-022-01115-w
 
 ## Contact
