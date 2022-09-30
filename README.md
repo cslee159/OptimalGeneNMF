@@ -1,7 +1,7 @@
 # OptimalGeneNMF
 [![DOI](https://zenodo.org/badge/292222008.svg)](https://zenodo.org/badge/latestdoi/292222008)
 
-OptimalGeneNMF is an R script for optimizing genes, resulting in represent a complicated regulation network of the given "target genes". Finally, from the "optimal genes", it extracts transcriptional signatures using Non-negative Matrix Factorization (NMF). Details are described  in our paper in preparation for publication (to be updated later).
+OptimalGeneNMF is an R script for optimizing genes, resulting in represent a complicated regulation network of the given "target genes". Finally, from the "optimal genes", it extracts transcriptional signatures using Non-negative Matrix Factorization (NMF). Details are described  in our paper; Lee, C., Lee, S., Park, E. et al. Transcriptional signatures of the BCL2 family for individualized acute myeloid leukaemia treatment. Genome Med 14, 111 (2022). (https://doi.org/10.1186/s13073-022-01115-w)
 
 An overall scheme of our gene optimization is depicted in the below figure in which "target genes" indicate BCL2 family genes (BCL2, MCL1, BFL1, BCLXL, and BCLW) as an example. In order to select a dataset-specific "optimal genes" that represents transcriptional signatures of the "target genes", a backward selection was performed with the input gene set. As a result, a subset of input genes was selected so as to optimally impute the expression profiles of target genes. 
 
